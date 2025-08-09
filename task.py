@@ -1,1 +1,1 @@
-"""Create a sample Blurry scan detector Python Application based on CNN and Keras"""
+"""Create a sample Eyeglasses present vs none detector Python Application based on CNN and Keras"""
