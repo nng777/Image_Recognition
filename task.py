@@ -1,1 +1,1 @@
-"""Create a sample Image Recognition Python Application based on CNN and Keras"""
+"""Create a sample Photos Recognition Python Application based on CNN and Keras"""
