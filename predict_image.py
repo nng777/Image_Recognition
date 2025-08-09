@@ -20,7 +20,7 @@ def load_and_prep(path):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python predict_image.py /path/to/image.jpg")
+        print("predict_image.py /path/to/image.jpg")
         sys.exit(1)
     model = tf.keras.models.load_model(MODEL_PATH)
     x = load_and_prep(sys.argv[1])
