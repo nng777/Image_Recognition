@@ -1,10 +1,10 @@
 import os
-os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 import sys
 import numpy as np
 import cv2
-import tensorflow as tf
+os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+import tensorflow as tf
 
 MODEL_PATH = "glasses_detector.keras"
 IMG_SIZE = (224, 224)

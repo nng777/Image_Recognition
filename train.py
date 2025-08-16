@@ -7,8 +7,8 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 IMG_SIZE = (224, 224)
 BATCH = 32
-EPOCHS_HEAD = 5       # train classifier head first
-EPOCHS_FINE = 5       # then fine-tune some base layers
+EPOCHS_HEAD = 10       # train classifier head first
+EPOCHS_FINE = 10       # then fine-tune some base layers
 DATA_DIR_TRAIN = "data/train"
 DATA_DIR_VAL = "data/val"
 OUT_PATH = "glasses_detector.keras"  # SavedModel in .keras format
